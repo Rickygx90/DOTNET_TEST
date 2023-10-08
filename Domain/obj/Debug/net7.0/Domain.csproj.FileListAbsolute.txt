@@ -1,0 +1,11 @@
+/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/bin/Debug/net7.0/Domain.deps.json
+/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/bin/Debug/net7.0/Domain.dll
+/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/bin/Debug/net7.0/Domain.pdb
+/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
+/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs
+/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache
+/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/obj/Debug/net7.0/Domain.dll
+/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/obj/Debug/net7.0/refint/Domain.dll
+/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/obj/Debug/net7.0/Domain.pdb
+/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/obj/Debug/net7.0/ref/Domain.dll

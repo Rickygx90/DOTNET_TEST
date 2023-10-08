@@ -1,0 +1,347 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Web.API.Test/Web.API.Test.csproj": {}
+  },
+  "projects": {
+    "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Application/Application.csproj",
+        "packagesPath": "/home/rickygx/.nuget/packages/",
+        "outputPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rickygx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/Domain.csproj": {
+                "projectPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/Domain.csproj",
+        "packagesPath": "/home/rickygx/.nuget/packages/",
+        "outputPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rickygx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Infrastructure/Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/rickygx/.nuget/packages/",
+        "outputPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rickygx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Application/Application.csproj": {
+                "projectPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Application/Application.csproj"
+              },
+              "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/Domain.csproj": {
+                "projectPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Web.API.Test/Web.API.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Web.API.Test/Web.API.Test.csproj",
+        "projectName": "Web.API.Test",
+        "projectPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Web.API.Test/Web.API.Test.csproj",
+        "packagesPath": "/home/rickygx/.nuget/packages/",
+        "outputPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Web.API.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rickygx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Web.API/Web.API.csproj": {
+                "projectPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Web.API/Web.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Web.API/Web.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Web.API/Web.API.csproj",
+        "projectName": "Web.API",
+        "projectPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Web.API/Web.API.csproj",
+        "packagesPath": "/home/rickygx/.nuget/packages/",
+        "outputPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Web.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rickygx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Application/Application.csproj": {
+                "projectPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Application/Application.csproj"
+              },
+              "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/Domain.csproj": {
+                "projectPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Domain/Domain.csproj"
+              },
+              "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/rickygx/Documentos/PROYECTOS_PERSONALES/DOTNET/CineBack/Infrastructure/Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
