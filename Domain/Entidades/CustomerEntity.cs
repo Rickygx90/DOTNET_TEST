@@ -1,11 +1,9 @@
-using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using Domain.Common;
 
 namespace Domain.Entidades
 {
-  public class CustomerEntity : BaseEntity
+    public class CustomerEntity : BaseEntity
   {
     [Required]
     [MaxLength(20)]

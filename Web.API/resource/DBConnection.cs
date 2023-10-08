@@ -6,6 +6,6 @@ public class DBConnection
 
   public MySqlConnection GetConnection()
   {
-    return new MySqlConnection("server=localhost,3306;database=cine;uid=root;");
+    return new MySqlConnection(Environment.GetEnvironmentVariable("MySqlDataBase"));
   }
 }

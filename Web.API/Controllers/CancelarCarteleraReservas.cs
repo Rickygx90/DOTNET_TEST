@@ -20,7 +20,7 @@ namespace Web.API.Controllers
       try
       {
         DateTime date = DateTime.Now.Date;
-        var connection = new MySqlConnection("server=localhost,3306;database=cine;uid=root;");
+        var connection = new MySqlConnection(Environment.GetEnvironmentVariable("MySqlDataBase"));
         using (TransactionScope scope = new TransactionScope())
         {
           connection.Open();

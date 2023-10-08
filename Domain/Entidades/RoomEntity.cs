@@ -1,12 +1,10 @@
-using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using Domain.Common;
 
 namespace Domain.Entidades
 {
 
-  public class RoomEntity : BaseEntity
+    public class RoomEntity : BaseEntity
   {
     [Required]
     [MaxLength(50)]

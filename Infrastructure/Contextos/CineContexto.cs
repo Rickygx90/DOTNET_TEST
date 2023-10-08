@@ -16,8 +16,7 @@ namespace Infrastructure.Contextos
     public DbSet<SeatEntity> SeatEntities { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
-      var connectionString = "server=localhost,3306;database=cine;uid=root;connect timeout=900;";
-    
+      var connectionString = "yourconnectionstring";
       options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
     }
   }

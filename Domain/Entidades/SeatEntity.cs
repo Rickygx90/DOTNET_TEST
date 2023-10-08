@@ -1,11 +1,10 @@
-using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Domain.Common;
 
 namespace Domain.Entidades
 {
-  public class SeatEntity : BaseEntity
+    public class SeatEntity : BaseEntity
   {
     [Required]
     public short Number { get; set; }

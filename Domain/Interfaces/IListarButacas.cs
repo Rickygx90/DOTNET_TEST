@@ -1,10 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace Domain.Interfaces
 {
-  public interface IListarButacas<TEntidad>
+    public interface IListarButacas<TEntidad>
   {
     List<TEntidad> ListarButacas();
   }
